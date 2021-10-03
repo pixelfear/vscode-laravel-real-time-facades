@@ -10,14 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:laravel-real-time-facades.helloWorld"
+        "onCommand:laravel-real-time-facades.convert"
 	],
-	"main": "./extension.js",
+	"main": "./src/extension.js",
 	"contributes": {
 		"commands": [{
-            "command": "laravel-real-time-facades.helloWorld",
-            "title": "Hello World"
-
+            "command": "laravel-real-time-facades.convert",
+            "title": "Convert to Real-Time Facade"
 		}]
 	},
 	"scripts": {
